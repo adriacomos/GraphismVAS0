@@ -54,6 +54,7 @@
     <Compile Include="ActiveInfosManagement\OutputController\InfoActionsGeneratorFactoryVAS0.cs" />
     <Compile Include="ActiveInfosManagement\ServicesController\InfoStateControllerAnchorPoint.cs" />
     <Compile Include="ActiveInfosManagement\ServicesController\InfoStateControllerFactoryVAS0.cs" />
+    <Compile Include="ActiveInfosManagement\ServicesController\Services\Microtimer.cs" />
     <Compile Include="ActiveInfosManagement\ServicesController\Services\ServiceAnchorInfo.cs" />
     <Compile Include="GraphismVAS0KeyWords.cs" />
     <Compile Include="GraphismVAS2015_0.cs" />
