@@ -46,7 +46,7 @@ namespace GraphismVAS0.ActiveInfosManagement.ServicesController
                     if (TheInfo != null && mService == null)
                     {
                         mService = new ServiceAnchorInfo(   TheInfo,
-                                                               100, // framerate
+                                                               50, // framerate
                                                                actionManager,
                                                                mRenderEngine,
                                                                mcvManager );
