@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GraphismVAS0.ActiveInfosManagement.ServicesController.Services
+namespace GraphismVAS0.Services
 {
     using System;
 
