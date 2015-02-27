@@ -18,7 +18,7 @@ using System.Threading;
 
 namespace GraphismVAS0
 {
-
+    // Clase para servicios de tiempo de alta precisión
     class TimerServices
     {
         public interface IEventHandlerTimer {
@@ -147,7 +147,6 @@ namespace GraphismVAS0
         }
 
 
-        // Se utiliza para envíos de alta precisión a VIZ, p.e... (ver ServiceAnchorInfo.cs)
 
 
         public IInfoActionsGeneratorFactory OutputControllerFactory { get; protected set; }
@@ -160,7 +159,6 @@ namespace GraphismVAS0
             OutputControllerFactory = new InfoActionsGeneratorFactoryVAS0();    // Generadores de acciones
             OutputServicesControllerFactory = new InfoStateControllerFactoryVAS0( renderEngine, cvManager ); // Controlador de servicios adicionales
             GraphicControllerOutputFactory = new GraphicControllerOutputFactoryVAS0();  // Generadores de animaciones
-            //PythonController.Init();
 
             TimerServices.StartTimerServices();
 

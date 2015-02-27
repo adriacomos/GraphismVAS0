@@ -32,6 +32,10 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GraphicsService, Version=15.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\VAS\3Party\GraphicsService.dll</HintPath>
+    </Reference>
     <Reference Include="RenderEngine">
       <HintPath>..\VAS\3Party\RenderEngine.dll</HintPath>
     </Reference>
@@ -59,10 +63,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\..\..\Develop Files\Projects.TFS\DTK\TVGraphics\GraphicsService\GraphicsService\GraphicsService.csproj">
-      <Project>{c46f5fdd-b6ed-4421-82c6-ee2faf23c991}</Project>
-      <Name>GraphicsService</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ComputerVisionFramework\ComputerVisionFramework.vcxproj">
       <Project>{f09acb25-f03b-4669-9310-f0a8ae9d3bba}</Project>
       <Name>ComputerVisionFramework</Name>
