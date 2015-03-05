@@ -182,10 +182,16 @@ namespace GraphismVAS0.ActiveInfosManagement.ServicesController.Services
         // ------------------------------------------------------------------------------------------------------------------
         public void Dispose()
         {
+            Timer oneTimeEvent = new Timer(endSend, null, 1000, 0);
+        }
+
+
+        public void endSend(object p)
+        {
             mActionManager = null;
 
-            TimerServices.unregisterInTimer50( mHandlerReadLiveData );
-            TimerServices.unregisterInTimer100( mHandlerSendToVIZ );
+            TimerServices.unregisterInTimer50(mHandlerReadLiveData);
+            TimerServices.unregisterInTimer100(mHandlerSendToVIZ);
         }
 
     }
