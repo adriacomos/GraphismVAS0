@@ -31,6 +31,13 @@ namespace GraphismVAS0.ActiveInfosManagement.ServicesController
                 case GraphismVAS0KeyWords.Outputs.AnchorInfo1:
                 case GraphismVAS0KeyWords.Outputs.AnchorInfo2:
                 case GraphismVAS0KeyWords.Outputs.AnchorInfo3:
+                case GraphismVAS0KeyWords.Outputs.AnchorInfo4:
+                case GraphismVAS0KeyWords.Outputs.AnchorInfo5:
+                case GraphismVAS0KeyWords.Outputs.AnchorInfo6:
+                case GraphismVAS0KeyWords.Outputs.AnchorInfo7:
+                case GraphismVAS0KeyWords.Outputs.AnchorInfo8:
+                case GraphismVAS0KeyWords.Outputs.AnchorInfo9:
+                case GraphismVAS0KeyWords.Outputs.AnchorInfo10:
                     return new InfoStateControllerAnchorPoint(mRenderEngine, mcvManager);
             }
             return null;
